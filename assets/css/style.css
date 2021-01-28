@@ -19,7 +19,7 @@ hr{
 
 
 
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: "Architects Daughter";
     color: #555555;
 }
@@ -32,6 +32,10 @@ h4 {
 body{
     font-family: Lato;
     color: #555555;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /*----------------------------------------Heading*/
@@ -48,7 +52,7 @@ header {
 }
 
 #nav-menu{
-     font-size: 90%;
+     font-size: 100%;
     list-style-type: none;
     letter-spacing: 3px;
 }
@@ -188,6 +192,7 @@ header {
 
 #menu h2{
      text-align: center;
+     
 }
 
 
@@ -202,10 +207,10 @@ list-style-type: none;
     text-align: center;
     margin-bottom: 5rem;
     background-color: rgba(243, 236, 141, 0.9);
-    margin-top: 5rem;
-    margin-left: 5rem;
-    margin-bottom: 5rem;
-    margin-right: 5rem;
+    margin-top: 12rem;
+    margin-left: 3rem;
+    margin-bottom: 12rem;
+    margin-right: 3rem;
 }
 
 .first-course-style i {
@@ -216,7 +221,7 @@ list-style-type: none;
 
 .first-course h2{
     text-align: center;
-    
+    font-size: 250%;
 }
 .first-course-container {
     
@@ -226,48 +231,25 @@ list-style-type: none;
     border: 1px solid transparent;
     border-radius: 0;
 
+
 }
 .center {
 margin: auto;
 }
 
-#welcome {
+#come-on {
     margin: 20px 0;
     text-align: center;
 
 }
 /*---------------p&p course */
 
-ul li{
-list-style-type: none;
-}
 
-.pp-course {
-    text-align: center;
-    margin-bottom: 5rem;
-    background-color: rgba(243, 236, 141, 0.9);
-    margin-top: 5rem;
-    margin-left: 5rem;
-    margin-bottom: 5rem;
-    margin-right: 5rem;
-}
+.first-course i{
 
-.pp-course-style i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 15px;
+    font-size: 60%;
 }
+.first-course hr{
 
-.pp-course h2{
-    text-align: center;
-    
-}
-.pp-course-container {
-    
-    border-color: #e4d797;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-
+    border-top: 0.5px solid #555555;
 }
