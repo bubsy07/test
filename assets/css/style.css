@@ -155,7 +155,7 @@ header {
 /*----------------------------------------about-me*/
 
 #about-me{
-    height: 300px;
+   
     margin: 3px 0;
     text-align: center;
     font-size: 100%;
@@ -181,7 +181,7 @@ header {
 /*----------------------------------------menu jpeg / h2 */
 
 #menu {
-	padding: 1rem 0;
+	
 	margin-bottom: 100px;
     background: url("../images/fish.jpg") center center / cover no-repeat fixed;     
 }
@@ -229,4 +229,45 @@ list-style-type: none;
 }
 .center {
 margin: auto;
+}
+
+#welcome {
+    margin: 20px 0;
+    text-align: center;
+
+}
+/*---------------p&p course */
+
+ul li{
+list-style-type: none;
+}
+
+.pp-course {
+    text-align: center;
+    margin-bottom: 5rem;
+    background-color: rgba(243, 236, 141, 0.9);
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+}
+
+.pp-course-style i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 15px;
+}
+
+.pp-course h2{
+    text-align: center;
+    
+}
+.pp-course-container {
+    
+    border-color: #e4d797;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+
 }
