@@ -319,14 +319,75 @@ margin: auto;
 /*---------------map-------------------------------------*/
 
 /* map */
-#map-wrapper {
+#map-wrap {
 
     height: 300px;
-    margin-bottom: 107px;
+    margin-bottom: 0px;
 }
 
-#map {
+#rossini-map {
     height: 100%;
     width: 100%;
     border: none;
+}
+
+/*---------------footer-------------------------------------*/
+
+
+#rossini-footer-details a{
+color: #555555;
+}
+
+footer h4{
+    font-size: 150%;
+    text-align: center;
+
+}
+footer {
+    color: #fafafa;
+    
+    margin: 0;
+}
+
+#rossini-footer-details a i:hover {
+    background: whitesmoke;
+}
+
+
+.footer-rossini {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgba(243, 236, 141, 1);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 100%;
+    border: none;
+}
+
+.footer-rossini-style i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 15px;
+}
+
+.footer-rossini h2{
+    text-align: center;
+    font-size: 200%;
+}
+.footer-rossini-container {
+    padding: 0px;
+    margin-bottom: 0;
+    
+
+
+}
+.center {
+margin: auto;
+}
+
+#footer {
+    margin: 20px 0;
+    text-align: center;
 }
