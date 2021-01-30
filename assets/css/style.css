@@ -261,6 +261,12 @@ margin: auto;
 
 
 /*---------------contact-------------------------------------*/
+#contact {
+	
+	margin-bottom: 10px;
+    background: url("../images/beach2.jpg") center center / cover no-repeat fixed;     
+}
+
 
 
 ul li{
@@ -269,12 +275,12 @@ list-style-type: none;
 
 .contact-rossini {
     text-align: center;
-    margin-bottom: 5rem;
-    background-color: white;
+    margin-bottom: 0rem;
+    background-color: rgba(243, 236, 141, 0.6);
     margin-top: 0px;
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-    margin-right: 3rem;
+    margin-left: 0rem;
+    margin-bottom: 0.7rem;
+    margin-right: 0rem;
 }
 
 .contact-rossini-style i {
@@ -292,8 +298,9 @@ list-style-type: none;
     border-color: #e4d797;
     padding: 5px 15px;
     margin-bottom: 0;
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     border-radius: 0;
+    width: 100%;
 
 
 }
@@ -302,8 +309,9 @@ margin: auto;
 }
 
 #contact {
-    margin: 20px 0;
+    margin: 0px 0px;
     text-align: center;
+    padding: 0px 0px;
 }
 
 .contact-rossini i{
@@ -321,8 +329,8 @@ margin: auto;
 /* map */
 #map-wrap {
 
-    height: 300px;
-    margin-bottom: 0px;
+    height: 400px;
+    margin-bottom: 10px;
 }
 
 #rossini-map {
@@ -334,9 +342,13 @@ margin: auto;
 /*---------------footer-------------------------------------*/
 
 
-#rossini-footer-details a{
+#footer a{
 color: #555555;
+font-size: 45px;
 }
+
+
+
 
 footer h4{
     font-size: 150%;
@@ -345,12 +357,19 @@ footer h4{
 }
 footer {
     color: #fafafa;
-    
     margin: 0;
+    
 }
 
-#rossini-footer-details a i:hover {
+#footer a i:hover {
     background: whitesmoke;
+}
+
+
+#footer a i {
+   font-size: 60%;
+   margin-right: 5px;
+   align-items: center;
 }
 
 
@@ -364,9 +383,11 @@ footer {
     margin-right: 0px;
     width: 100%;
     border: none;
+    height: 300px;
+    margin-bottom: 10px;
 }
 
-.footer-rossini-style i {
+.footer-rossini-style a i{
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 15px;
@@ -378,9 +399,7 @@ footer {
 }
 .footer-rossini-container {
     padding: 0px;
-    margin-bottom: 0;
-    
-
+    margin: 0%;
 
 }
 .center {
@@ -388,6 +407,6 @@ margin: auto;
 }
 
 #footer {
-    margin: 20px 0;
+    margin: 0px;
     text-align: center;
 }
