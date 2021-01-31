@@ -346,35 +346,19 @@ margin: auto;
 }
 
 
-#footer a i {
-   font-size: 60%;
-   margin-right: 5px;
-   align-items: center;
-}
 
 
 
 
-.footer-rossini-style a i{
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 15px;
-}
+
+
 
 .center {
 margin: auto;
 }
 
 
-.creation {
-    color: #555555;
-    padding: 0;
-    font-size: 12px;
-    float: right;
-    letter-spacing: 1px;
-    margin-right: 30px;
-     
-}
+
 
 #rossini-footer-details{
 
@@ -392,4 +376,17 @@ margin: auto;
    margin-right: 5px;
    align-items: center;
     color: #555555;
+}
+#rossini-footer-details a {
+   
+   margin-right: 5px;
+   align-items: center;
+    color:blue;
+     font-family: "Architects Daughter";
+     font-size: 12px;
+font-size: 100%;
+     
+}
+#rossini-footer-details a i:hover {
+   color: blue;
 }
