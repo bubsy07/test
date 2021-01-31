@@ -182,21 +182,10 @@ header {
 
 #menu {
 	
-	margin-bottom: 10px;
-    background: url("../images/fish.jpg") center center / cover no-repeat fixed;     
-}
-
-#menu h2{
+	margin-bottom: 0px;
+    background: url("../images/fish.jpg") center center / cover no-repeat fixed;   
      text-align: center;
      
-}
-
-
-
-/*---------------menu-------------------------------------*/
-
-ul li{
-list-style-type: none;
 }
 
 .first-course {
@@ -209,42 +198,56 @@ list-style-type: none;
     margin-right: 3rem;
 }
 
-.first-course-style i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 15px;
-}
-
-.first-course h2{
-    text-align: center;
-    font-size: 250%;
-}
-.first-course-container {
-    
-    border-color: #e4d797;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
 
 
+
+
+
+
+
+#menu h2{
+     text-align: center;    
 }
-.center {
-margin: auto;
+
+#menu h4{
+     text-align: center;    
 }
+
+.starter-style {
+     text-align: center;   
+}
+
+
+/*---------------menu-------------------------------------*/
+
+ul li{
+list-style-type: none;
+}
+
+
 
 #come-on {
     margin: 20px 0;
     text-align: center;
 }
 
-.first-course i{
 
-    font-size: 60%;
+#rossini-menu-details{
+text-align: center;
 }
-.first-course hr{
 
-    border-top: 0.5px solid #555555;
+#pizza-pasta {
+
+    text-align: center;
+}
+
+#mains {
+
+    text-align: center;
+}
+
+#desserts-drinks {
+      text-align: center;
 }
 
 /*---------------gallery-------------------------------------*/
@@ -261,68 +264,53 @@ margin: auto;
 
 
 /*---------------contact-------------------------------------*/
-#contact {
+#rossini-contact {
 	
 	margin-bottom: 10px;
-    background: url("../images/beach2.jpg") center center / cover no-repeat fixed;     
+    background: url("../images/beach2.jpg") center center / cover no-repeat fixed;    
+    
+    text-align: center;
+    margin-bottom: 0rem;
+    background-color: rgb(247, 246, 241, 0.6);
+    margin-top: 10px;
+    margin-left: 0rem;
+    margin-bottom: 0.7rem;
+    margin-right: 0rem; 
+     color: white;
+     height: 400px;
+
+}
+#rossini-contact h1 {
+color: white;
+padding-top: 10px;
+font-size: 225%;
+
 }
 
+#rossini-contact h3 {
+color: white;
+}
+
+#rossini-contact h2 {
+color: white;
+}
+
+#rossini-contact a {
+color: white;
+}
+
+#rossini-contact hr {
+color: white;
+}
+
+#contact-style hr {
+color: white;
+}
 
 
 ul li{
 list-style-type: none;
 }
-
-.contact-rossini {
-    text-align: center;
-    margin-bottom: 0rem;
-    background-color: rgba(243, 236, 141, 0.6);
-    margin-top: 0px;
-    margin-left: 0rem;
-    margin-bottom: 0.7rem;
-    margin-right: 0rem;
-}
-
-.contact-rossini-style i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 15px;
-}
-
-.contact-rossini h2{
-    text-align: center;
-    font-size: 200%;
-}
-.contact-rossini-container {
-    
-    border-color: #e4d797;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 0px solid transparent;
-    border-radius: 0;
-    width: 100%;
-
-
-}
-.center {
-margin: auto;
-}
-
-#contact {
-    margin: 0px 0px;
-    text-align: center;
-    padding: 0px 0px;
-}
-
-.contact-rossini i{
-
-    font-size: 60%;
-}
-.contact-rossini hr{
-
-    border-top: 0.5px solid #555555;
-}
-
 
 /*---------------map-------------------------------------*/
 
@@ -340,25 +328,9 @@ margin: auto;
 }
 
 /*---------------footer-------------------------------------*/
-
-#footer a i:hover {
-    background: whitesmoke;
-}
-
-
-
-
-
-
-
-
-
 .center {
 margin: auto;
 }
-
-
-
 
 #rossini-footer-details{
 
