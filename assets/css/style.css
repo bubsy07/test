@@ -341,26 +341,6 @@ margin: auto;
 
 /*---------------footer-------------------------------------*/
 
-
-#footer a{
-color: #555555;
-font-size: 45px;
-}
-
-
-
-
-footer h4{
-    font-size: 150%;
-    text-align: center;
-
-}
-footer {
-    color: #fafafa;
-    margin: 0;
-    
-}
-
 #footer a i:hover {
     background: whitesmoke;
 }
@@ -373,19 +353,7 @@ footer {
 }
 
 
-.footer-rossini {
-    text-align: center;
-    margin-bottom: 0px;
-    background-color: rgba(243, 236, 141, 1);
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    width: 100%;
-    border: none;
-    height: 300px;
-    margin-bottom: 10px;
-}
+
 
 .footer-rossini-style a i{
     margin-bottom: 20px;
@@ -393,20 +361,35 @@ footer {
     line-height: 15px;
 }
 
-.footer-rossini h2{
-    text-align: center;
-    font-size: 200%;
-}
-.footer-rossini-container {
-    padding: 0px;
-    margin: 0%;
-
-}
 .center {
 margin: auto;
 }
 
-#footer {
-    margin: 0px;
+
+.creation {
+    color: #555555;
+    padding: 0;
+    font-size: 12px;
+    float: right;
+    letter-spacing: 1px;
+    margin-right: 30px;
+     
+}
+
+#rossini-footer-details{
+
+    background-color: rgba(243, 236, 141, 1);
     text-align: center;
+}
+
+#rossini-footer-details p{
+
+        color: #555555;
+        font-family: "Architects Daughter";
+}
+#rossini-footer-details a i {
+   font-size: 150%;
+   margin-right: 5px;
+   align-items: center;
+    color: #555555;
 }
