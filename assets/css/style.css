@@ -129,8 +129,8 @@ header {
 .web-info {
     text-align: center;
     
-    background-color: rgba(243, 236, 141, 1);
-    border-color:rgba(243, 236, 141, 1);
+    background-color: khaki;
+    border-color:khaki;
     padding: 5px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
@@ -184,23 +184,25 @@ header {
 	
 	margin-bottom: 0px;
     background: url("../images/fish.jpg") center center / cover no-repeat fixed;   
-     text-align: center;
-     
-}
-
-.first-course {
     text-align: center;
-    margin-bottom: 5rem;
-    background-color: rgba(243, 236, 141, 0.9);
-    margin-top: 12rem;
-    margin-left: 3rem;
-    margin-bottom: 12rem;
-    margin-right: 3rem;
+    background-color:white;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 
-
-
+.menu-style {
+    background-color: khaki;
+    opacity: 90%; 
+    padding-top: 15px; 
+    
+}
 
 
 
@@ -263,6 +265,35 @@ text-align: center;
 }
 
 
+
+
+/*---------------reviews-------------------------------------*/
+
+#reviews{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#reviews div {
+    color: #555555;
+    background-color: rgba(250, 248, 248, 0.8);
+    width: 33%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
+}
+
+#reviews h2 {
+     color: #555555;
+}
+
+
 /*---------------contact-------------------------------------*/
 #rossini-contact {
 	
@@ -317,7 +348,7 @@ list-style-type: none;
 /* map */
 #map-wrap {
 
-    height: 400px;
+    height: 200px;
     margin-bottom: 10px;
 }
 
@@ -334,7 +365,7 @@ margin: auto;
 
 #rossini-footer-details{
 
-    background-color: rgba(243, 236, 141, 1);
+    background-color: khaki;
     text-align: center;
 }
 
